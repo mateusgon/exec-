@@ -12,7 +12,7 @@ namespace Secao5___Exec1
             int numConta = int.Parse(Console.ReadLine());
             Console.Write("Digite o titular da conta: ");
             string nome = Console.ReadLine();
-            Console.Write("Deseja realizar um depósito inicial?");
+            Console.Write("Deseja realizar um depósito inicial? (s/n) ");
             char resp = char.Parse(Console.ReadLine());
             if (resp == 's' || resp == 'S')
             {
